@@ -1,0 +1,4 @@
+#!/bin/bash
+a=2
+b=3
+echo "scale=2; $a / $b" | bc

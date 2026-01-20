@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter file or directory name:"
+read name
+
+if [ -f "$name" ]; then
+    echo "Regular file"
+elif [ -d "$name" ]; then
+    echo "Directory"
+else
+    echo "Other type"
+fi
