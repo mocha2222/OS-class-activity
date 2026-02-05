@@ -1,0 +1,15 @@
+  153  git checkout -b activity1
+  154  git push -u origin activity1
+  155  history | tail -n 50 > /home/bormey/OS-class-activity/class_activity1/ syscall_command_history.txt
+  156  cat syscall_command_history.txt
+  157  history | tail -n 50 > /home/bormey/class_activity1/ syscall_command_history.txt
+  158  history | tail -n 50 > /home/bormey/OS-class-activity/class_activity1/syscall_command_history.txt
+  159  cat syscall_command_history.txt
+  160  cd ..
+  161  mkdir class_activity2
+  162  cd class_activity2
+  163  nano forkchild.c
+  164  gcc -o forkchild forkchild.c 
+  165  ./forkchild > result_forkchild.txt
+  166  cat result_forkchild.txt 
+  167  history | tail -n 15 > command_used_forkchild.txt
